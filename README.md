@@ -1,3 +1,13 @@
+## How to set up local env using uv
+
+| Task        | Command                          |
+| ----------- | -------------------------------- |
+| Create venv | `uv venv .venv`                  |
+| Activate    | `source .venv/bin/activate`      |
+| Install     | `uv pip install fastapi uvicorn` |
+| Run app     | `uvicorn main:app --reload`      |
+
+
 ## How to run
 
 Check that your shell is using the correct Python environment:
